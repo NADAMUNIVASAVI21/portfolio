@@ -1,0 +1,75 @@
+
+
+/* Existing styles or empty */
+
+.self-summary {
+    font-size: 2em; /* Increase font size */
+    position: absolute; /* Adjust as needed */
+    top: 33%; /* Adjust as needed */
+    left: 50%; /* Centering */
+    transform: translate(-50%, -50%); /* Centering */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+#wholemenu {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 70px - 40px); /* Adjust height to account for header and footer */
+    overflow: hidden;
+    background: transparent !important; /* Set the background color to a light gray color */
+}
+
+#bg--video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important; /* Ensure the video is behind the content */
+}
+
+.self-summary h2 {
+    font-size: xx-large !important;
+    text-align: center;
+}
+
+.self-summary p {
+    font-size: medium;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 90px; /* Adjust the spacing between text and buttons */
+}
+
+.custom-button {
+    margin-top: 110px;
+    background: transparent;
+    border: 2px solid white; /* White outline */
+    border-radius: 25px; /* Oval shape */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    margin: 0 10px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    position: relative;
+    right: 0px;
+    top: 250px;
+    bottom: 10px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+}
+
+.custom-button:hover {
+    background-color: white; /* Change background on hover */
+    color: black; /* Change text color on hover */
+}
+
+.hire-me-link{
+    text-decoration: none;
+    color: white;
+}

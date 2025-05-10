@@ -1,0 +1,162 @@
+/* Universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  cursor: url('/cursor.png'), auto;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+.rectangle-button a{
+  text-decoration: none;
+  color: white;
+}
+#header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+  background: rgb(6, 6, 6);
+}
+
+#header img {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  margin-left: 10px;
+}
+
+nav {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.nav-options {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-options li {
+  display: inline-block;
+}
+
+.nav-options a {
+  text-decoration: none;
+  color: rgb(253, 252, 251);
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-options a:hover {
+  color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+#footer {
+  color: rgb(253, 252, 252);
+  width: 100%;
+  height: 40px;
+  background: rgb(1, 1, 1);
+}
+
+#footer img {
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: 8px;
+}
+
+
+
+#footer label {
+  color: rgb(255, 254, 252);
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+/* Existing CSS */
+#content {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 70px - 40px); /* Adjust height to account for header and footer */
+  overflow: hidden;
+  background: transparent !important; /* Set the background color to a light gray color */
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important; /* Ensure the video is behind the content */
+}
+.light-gray {
+  color: lightgray; /* For "I'm" */
+}
+
+.white {
+  color: white; /* For "NADAMUNI VASAVI" */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Aligns content in a column */
+  align-items: flex-end; /* Align text to the right */
+  padding: 20px; 
+  position: relative;
+  right: 70px; /* Adjusted to 70px to move left */
+  top: 90px; /* Decreased by 5px to move lower */
+  font-size: 40px;
+}
+
+.text-container h2 {
+  position: relative;
+  top: 10px;
+  right: 510px;
+  color: white;
+  margin-bottom: 20px; /* Adds space between text and buttons */
+}
+
+.button--container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 20px; /* Adjust the spacing between text and buttons */
+}
+
+.custom--button {
+  background: transparent; /* Transparent background */
+  border: 2px solid white; /* White outline */
+  border-radius: 25px; /* Oval shape */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for the button */
+  margin: 0 10px; /* Space between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  position: relative;
+  right: 460px;
+}
+
+.l{
+  text-decoration: none;
+  color: white;
+}

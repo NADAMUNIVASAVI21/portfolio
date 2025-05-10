@@ -1,0 +1,26 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Make the page scrollable */
+html, body {
+    height: auto; /* Allow content to define height */
+    min-height: 100vh; /* Ensure at least full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Background Video */
+#bgvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video stays behind all content */
+}
+

@@ -1,0 +1,83 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Make the page scrollable */
+html, body {
+    height: auto; /* Allow content to define height */
+    min-height: 100vh; /* Ensure at least full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Background Video */
+#bg---video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video stays behind all content */
+}
+
+/* Technical Skills Section */
+.ts {
+    position: relative;
+    text-align: center;
+    z-index: 1; /* Ensure content is above video */
+    padding: 50px 20px;
+    font-size: xx-large;
+    height: auto;
+    color: white;
+}
+
+.ts h2 {
+    color: white; /* Set the color of the Technical Skills heading to white */
+}
+
+.ts .html {
+    width: 200px;
+    height: auto;
+}
+
+.ts img {
+    width: 250px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional Sections (For Scrolling Effect) */
+.section {
+    position: relative;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+/* Add spacing to create scrolling effect */
+.spacer {
+    height: 800px; /* Adjust as needed to allow scrolling */
+}
+
+.ss img {
+    width: 250px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.ss {
+    position: relative;
+    text-align: center;
+    z-index: 1; /* Ensure content is above video */
+    padding: 50px 20px;
+    font-size: xx-large;
+    height: auto;
+    color: white;
+}
+
+.ss h2 {
+    color: white; /* Set the color of the Technical Skills heading to white */
+}
