@@ -56,7 +56,7 @@ function Internships() {
     <section className="internships-section">
       <div className="container">
         <div className="section-title-container">
-          <h2 className="section-title">INTERNSHIPS</h2>
+          <h2 className="section-title">INTERNSHIPS & CERTIFICATIONS</h2>
         </div>
 
         <div className="internships-grid">
