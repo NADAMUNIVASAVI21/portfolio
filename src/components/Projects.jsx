@@ -19,6 +19,12 @@ function Projects() {
       title: "Shoe API",
       description: "CRUD-based API for managing bakery data, deployed using Jenkins.",
       tags: ["Java", "DevOps", "2025"]
+    },
+    {
+      id: 4,
+      title: "Skill Tracker",
+      description: "A MERN stack application to track and manage skills.",
+      tags: ["MERN", "2025"],
     }
   ];
 
