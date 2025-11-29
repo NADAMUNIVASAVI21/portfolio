@@ -25,6 +25,12 @@ function Projects() {
       title: "Skill Tracker",
       description: "A MERN stack application to track and manage skills.",
       tags: ["MERN", "2025"],
+    },
+    {
+      id: 5,
+      title: "Python Compiler",
+      description: "A python compiler built using html, css and javascript.",
+      tags: ["HTML", "CSS", "JavaScript", "Python", "2025"]
     }
   ];
 
